@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+ 
+* {   margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(58, 64, 66);
+    overflow: auto;
+}
+.navcontainer {
+    width: 100vw;
+    position: absolute; 
+   
+}
+.nav {
+    width: 100%;
+    background-color: rgb(58, 64, 66);
+    height: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.leftnav {
+    /* width: 40%; */
+    margin-left: 15px;
+    padding: 15px;
+    background-color: rgb(58, 64, 66);
+}
+.leftnav p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+}
+#navlogo:hover {
+    cursor: pointer;
+    color: rgba(235, 60, 60, 0.875);
+}
+.rightnav {
+    /* width: 60%; */
+    margin-right: 20px;
+    display: flex;
+    display: flex;
+    
+}
+.rightnav ul {
+    display: flex;
+    flex-direction: row;
+    
+}
+.rightnav li {
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    gap: 10px;
+    font-size: 1.2rem;
+    list-style: none;
+    flex-direction: row;
+
+}
+.rightnav a {
+    font-family: 'Roboto', sans-serif;
+   font-weight: lighter;
+    color: white;
+    text-decoration: none;
+
+}
+#signup {
+    font-weight: 800;
+    height: 2em;
+    line-height: 1rem;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(237, 100, 100, 0.846);
+    border-radius: 0.3px solid black;
+    border-radius: 5px;
+}
+.hover a:hover {
+   
+    color: rgba(220, 43, 43, 0.802);
+}
+#signup:hover {
+    background-color: rgb(227, 119, 119); ;
+}
+.contentbox {
+    width: 70%;
+    height: 600px;
+    margin: auto;
+    border: 1px solid  rgb(58, 64, 66);
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.item1 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    
+}
+.leftsec {
+    margin-left: 90px;
+    margin-right: 90px;
+}
+.leftsec h1 {
+    color: rgba(255, 255, 255, 0.875);
+    width: 25rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+.leftsec p {
+    color: rgba(255, 255, 255, 0.856);
+    font-weight: 300;
+    font-size: 1.4rem;
+    font-family: 'Roboto', sans-serif;
+}
+.rightsec {
+   gap: 50px;
+}
+img {
+
+    border: 0.1px solid  rgb(58, 64, 66);
+    border-radius: 360px;
+}
